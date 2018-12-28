@@ -18,7 +18,7 @@ if(number<0)
  go:	
  if(number>1000000000)
 	{
-     cout<<"Enter a number between zero and hundred milliten.";
+     cout<<"Enter a number between zero and hundred million.";
     
 	}
 
@@ -28,7 +28,7 @@ else if(number<=1000000000 && number>=1000000)
      hundred=(number/100000000); printhundred(hundred);
      ten=(number/10000000)%10; printten(ten);
      million=(number/1000000)%10; printone(million);
-     cout<<"milliten ";
+     cout<<"million ";
      goto run;
 	}
 else if(number<1000000 && number>100)
